@@ -1,0 +1,19 @@
+.box {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+
+    /* CSS3 Properties */
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px gray;
+    transition: 0.5s;
+}
+
+.box:hover {
+    background-color: pink;
+    transform: scale(1.1);
+}
